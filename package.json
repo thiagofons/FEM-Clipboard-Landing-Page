@@ -1,0 +1,23 @@
+{
+  "name": "fem-clipboard-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagofons/FEM-Clipboard-Landing-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagofons/FEM-Clipboard-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/thiagofons/FEM-Clipboard-Landing-Page#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0",
+    "sass": "^1.58.0"
+  }
+}

@@ -1,0 +1,41 @@
+@use "variables"
+@use "mixins"
+@use "resets"
+
+h1, h2, h3
+  color: variables.$dark-grayish-blue
+p
+  color: variables.$grayish-blue
+
+body 
+  font-family: variables.$font-name
+  background: url('../images/bg-header-desktop.png') no-repeat
+  @include mixins.flex-column-center 
+
+header
+  padding: 5rem
+  max-width: 40rem
+  text-align: center
+
+  .logo__image
+    margin-bottom: 2rem
+
+  .welcome
+    h1
+      margin: 1rem 0
+    p
+
+  .download__btns
+    margin: 2rem 0
+
+    .btn
+      border: none
+      border-radius: 2rem
+      padding: 1rem 2rem
+      color: variables.$white
+      font-family: variables.$font-name
+
+.green__bg
+  background-color: variables.$strong-cyan
+.purple__bg
+  background-color: variables.$light-blue
